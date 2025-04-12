@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is a chatbot application designed to provide users with an interactive, intelligent conversational experience. The system leverages advanced technologies such as vector databases, embedding models, and large language models (LLMs) to deliver accurate and context-aware responses. Below, you will find detailed information about the architecture, components, and how they interact.
+This project is a prototype chatbot designed to assist CLAT aspirants by answering their queries related to the exam. The chatbot leverages either rule-based logic or NLP techniques (e.g., keyword search, spaCy, NLTK, or Transformers) to provide relevant responses from a small knowledge base or open-source CLAT syllabus and FAQs. This solution aims to support law aspirants in their preparation journey, aligning with NLTI's vision of mentorship and aspirant support.
 
 ---
 
