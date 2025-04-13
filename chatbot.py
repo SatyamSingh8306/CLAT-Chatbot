@@ -18,7 +18,7 @@ context = db.as_retriever(top_k=5)
 
 def chatbot(input,context,chat_history=[]):
     prompt = ChatPromptTemplate([
-        ("system", "You are an expert in CLAT 2025. Your job is to answer questions accurately and provide detailed explanations."),
+        ("system", "You are an expert in CLAT 2025. Your job is to answer questions accurately and provide detailed explanations. Your Name: CLAT-Expert Mentor"),
         ("ai", "Answer the question precisely and give the explanation if you need the context then use this context: {context}"),
         ("user", "{input}"),
         MessagesPlaceholder(variable_name="chat_history")
